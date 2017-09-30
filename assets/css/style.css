@@ -1,0 +1,58 @@
+html{
+
+	height: 100%;
+}
+
+body{
+	background-image: url(https://i.imgur.com/KXADyE0.png);
+	background-repeat: repeat; 
+	height: 100%;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1,h2{
+  color:#4aaaa5;
+}
+
+.container-fluid {
+  margin-left:45px;
+}
+
+.navbar-brand {
+  color:white;
+  background-color:#4aaaa5;
+  font-weight: bold;
+  font-size:30px;
+}
+
+#bio-image {
+  float:left;
+}
+
+#main-bio {
+  float:right;
+}
+
+#wrap{
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+#contact-info {
+  padding-left:30px;
+  padding-bottom:10px;
+}
+
+.footer {
+
+  height: 70px;
+  background-color: #777777;
+  margin-top:20px;
+
+}
+
+
+}
